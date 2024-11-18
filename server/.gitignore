@@ -1,0 +1,97 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs and debug info
+*.log
+*.pot
+*.coverage
+*.cover
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.pytest_cache/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# FastAPI specific
+instance/
+*.db
+*.sqlite3
+*.env
+
+# Static files
+staticfiles/
+mediafiles/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Local environment variables and configs
+.env
+.env.*
+.vscode/settings.json
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+pytestdebug.log
+.env.test
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other
+*.log
+*.orig
